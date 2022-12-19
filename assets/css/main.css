@@ -1,0 +1,130 @@
+body {
+    background-color: var(--main-color);
+}
+
+.nav-sidebar {
+    width: var(--navsidebar-height);
+    height: 100%;
+    background-color: var(--white-color);
+    color: #757575;
+    position: fixed;
+    font-weight: bold;
+}
+
+.nav-sidebar__heading {
+    background-color: var(--white-color);
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 30px;
+    padding: 85px;
+    margin: 10px 0;
+}
+
+.nav-sidebar-item {
+    display: block;
+    color: #757575;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 8px 16px;
+    outline: 0;
+}
+
+.nav-sidebar-item:hover {
+    background-color: #ccc;
+    color: var(--black-color);
+}
+
+.main-content {
+    margin-left: 300px;
+}
+
+.header {
+    display: flex;
+}  
+
+.header-item {
+    width: 33.3333%;
+    float: left;
+}
+
+.header-item img{
+    margin-bottom: -6px;
+    opacity: 0.8;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.header-item img:hover {
+    opacity: 1;
+}
+
+.header-item img,
+.header-item__img {
+    width: 100%;
+}
+
+.pagination {
+    padding: 32px;
+    
+}
+
+.paginnation-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.pagination-list-item {
+    padding: 8px 16px;
+}
+
+.pagination-list-item--active {
+    background-color: var(--black-color);
+}
+.pagination-list-item--active .pagination-list-item__link {
+    color: var(--white-color);
+}
+
+.pagination-list-item__link {
+    display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--black-color);
+}   
+
+.wrapper {
+    background-color: #616161;
+    padding: 32px;
+    text-align: center;
+}
+
+.wrapper-heading {
+    font-size: 1.6rem;
+    color: var(--white-color);
+    margin: 10px 0;
+}
+
+.wrapper-img {
+    padding: 25px;
+    width: 650px;
+    height: 450px;
+}
+
+.wrapper-content {
+    text-align: justify;
+    max-width: 600px;
+    margin: auto;
+    font-size: 1.5rem;
+    color: var(--white-color);
+}
+
+.wrapper-content__about{
+    line-height: 20px;
+}
+.wrapper-content__email {
+    display: block;
+    padding: 24px 0;
+}
