@@ -8,21 +8,30 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/fontawesome-free-6.2.1-web/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     
 </head>
 <body>
     <div class="main grid">
-        <nav class="nav-sidebar">
+        <nav id="navbar" class="nav-sidebar">
             <h3 class="nav-sidebar__heading">SOME
                 <br>
                 NAME
             </h3>
+            <a href="#close" id="close" class="nav-sidebar-item">close</a>
             <a href="#portfolio" class="nav-sidebar-item">portfolio</a>
             <a href="#about" class="nav-sidebar-item">about me</a>
             <a href="#contact" class="nav-sidebar-item">contact</a>
         </nav>
+
+        <header class="header__small-screen">
+            <span class="header__small-heading">SOME NAME</span>
+            <a id="header__small-menu" class="header__small-link" href="#">
+                <i class="header__small-icon fa-solid fa-bars"></i>
+            </a>
+        </header>
 
         <div class="main-content">
             <header class="header" id="portfolio">
@@ -152,6 +161,7 @@
                 </div>
             </div>
 
+            <!-- contact -->
             <div class="contact" id="contact">   
                 <div class="contact__main">
                     <h1 class="contact-heading" >Contact Me</h1>
@@ -173,7 +183,8 @@
                     </form>
                 </div>
             </div>
-        
+            
+            <!-- footer -->
             <footer class="footer">
                 <div class="footer__row">
                     <div class="footer__column-3">
@@ -238,6 +249,8 @@
                 
                 
             </footer>
+
+            <!-- brand -->
             <div class="brand">
                 Powered by
                 <a href="#" class="brand__link">VuongQuangNinh</a>
@@ -246,5 +259,30 @@
         </div>
 
     </div>
+
+
+    <script> 
+       
+        // var smallMenu = document.getElementById('header__small-menu');
+        // var navbar = document.getElementById('navbar');
+        
+        // smallMenu.onclick = function() {
+        //     if (navbar.style.display === "none") {
+        //         navbar.style.display = "block"
+        //     } else {
+        //         navbar.style.display = "none"
+        //     }
+        // }
+        // var menuItems = document.getElementById('close')
+        // for (var i = 0; i < menuItems.length; i++) {
+        //     var menuItem = menuItems[i];
+            
+        //     menuItem.onclick = function() {
+        //         navbar.style.display = "none"
+        //     }
+        // }
+        
+
+    </script>
 </body>
 </html>
