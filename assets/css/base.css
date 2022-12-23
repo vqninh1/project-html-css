@@ -7,14 +7,16 @@
 
 
 * {
-    box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
 }
 
 html {
     font-size: 62.5%;
     line-height: 1.5rem;
     font-family: 'Raleway', sans-serif;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 /* Responsive */
@@ -24,4 +26,3 @@ html {
     max-width: 100%;
     margin: 0 auto;
 }
-
