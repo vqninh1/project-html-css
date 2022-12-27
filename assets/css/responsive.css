@@ -5,7 +5,7 @@
 
 /* Table */
 @media (min-width: 740px) and (max-width: 1023px) {
-    .main-content {
+    .main_content {
         margin-left: 0;
         margin-right: 0;
     }
@@ -15,11 +15,11 @@
         
     }
 
-    .header__small-screen {
+    .header__screen-small {
         display: block;
     }
 
-    .paginnation-list {
+    .pagination__list {
         padding-left: 0;
     }
 }
@@ -36,11 +36,11 @@
         display: block;
     }
 
-    .header__small-screen {
+    .header__screen-small {
         display: block;
     }
 
-    .main-content {
+    .main_content {
         margin-left: 0;
         margin-right: 0;
         margin-top: 83px;
@@ -59,15 +59,15 @@
 
     }
 
-    .paginnation-list {
+    .pagination__list {
         padding-left: 0;
     }
 
-    .wrapper__content-row {
+    .wrapper__content_row {
         flex-direction: column;
     }
 
-    .wrapper__content-item {
+    .wrapper__content_items {
         width: 100%;
     }
 
@@ -76,7 +76,7 @@
 
     }
 
-    .footer__column-3 {
+    .footer__column-third {
         width: 100%;
     }
 }
