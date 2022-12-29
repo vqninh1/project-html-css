@@ -226,6 +226,17 @@
     text-align: center;
 }
 
+.wrapper__content-percent .wrapper__content-percent_main-large {
+    width: 95%;
+}
+
+.wrapper__content-percent .wrapper__content-percent_main-medium {
+    width: 85%;
+}
+
+.wrapper__content-percent .wrapper__content-percent_main-small {
+    width: 80%;
+}
 .wrapper__content-btn {
     padding: 12px 24px;
     border: none;
