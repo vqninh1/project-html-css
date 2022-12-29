@@ -218,7 +218,9 @@
     background-color: var(--white-color);
 }
 
-.wrapper__content-percent .wrapper__content-percent_main {
+.wrapper__content-percent .wrapper__content-percent_main-large,
+.wrapper__content-percent .wrapper__content-percent_main-medium,
+.wrapper__content-percent .wrapper__content-percent_main-small  {
     min-height: 30px;
     color: var(--black-color);
     background-color: #9e9e9e;
@@ -237,6 +239,7 @@
 .wrapper__content-percent .wrapper__content-percent_main-small {
     width: 80%;
 }
+
 .wrapper__content-btn {
     padding: 12px 24px;
     border: none;
